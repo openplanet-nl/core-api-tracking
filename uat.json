@@ -395,6 +395,10 @@
         "method": "DELETE",
         "path": "/squads/{squadId}/members/{memberAccountId}"
     },
+    "nadeoservices_retention_get": {
+        "method": "GET",
+        "path": "/stats/retentions/"
+    },
     "nadeoservices_account_station_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/stations/"
