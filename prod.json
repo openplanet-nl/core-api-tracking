@@ -3,6 +3,14 @@
         "method": "GET",
         "path": "/storageObjects/{storageObjectId}"
     },
+    "nadeoservices_driver_bot_list_add": {
+        "method": "POST",
+        "path": "/bots/drivers/"
+    },
+    "nadeoservices_driver_bot_list_get": {
+        "method": "GET",
+        "path": "/bots/drivers/"
+    },
     "nadeoservices_account_client_config_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/client/config"
