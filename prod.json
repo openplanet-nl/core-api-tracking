@@ -259,6 +259,10 @@
         "method": "POST",
         "path": "/mapRecords/"
     },
+    "nadeoservices_playable_season_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/playableSeasons/"
+    },
     "nadeoservices_season_get": {
         "method": "GET",
         "path": "/seasons/{seasonId}"
