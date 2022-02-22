@@ -443,6 +443,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/trophies/lastYearSummary"
     },
+    "nadeoservices_trophy_competition_match_achievement_add": {
+        "method": "POST",
+        "path": "/trophies/achievements/competition/matchs/"
+    },
     "nadeoservices_trophy_competition_get": {
         "method": "GET",
         "path": "/competitions/{trophyCompetitionId}"
