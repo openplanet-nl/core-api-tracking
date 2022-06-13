@@ -229,7 +229,7 @@
     },
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
-        "path": "/mapRecordSecureAttempts/"
+        "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
     },
     "nadeoservices_account_maprecord_list_get": {
         "method": "GET",
@@ -245,7 +245,7 @@
     },
     "nadeoservices_maprecordsecureattempt_patch": {
         "method": "PATCH",
-        "path": "/mapRecordSecureAttempts/{mapRecordAttemptId}"
+        "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
     },
     "nadeoservices_maprecordattempt_set": {
         "method": "POST",
