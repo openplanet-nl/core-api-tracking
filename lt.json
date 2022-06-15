@@ -3,6 +3,14 @@
         "method": "GET",
         "path": "/storageObjects/{storageObjectId}"
     },
+    "nadeoservices_driver_bot_list_add": {
+        "method": "POST",
+        "path": "/bots/drivers/"
+    },
+    "nadeoservices_driver_bot_list_get": {
+        "method": "GET",
+        "path": "/bots/drivers/"
+    },
     "nadeoservices_account_client_config_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/client/config"
@@ -95,18 +103,6 @@
         "method": "POST",
         "path": "/encryptedPackages/{encryptedPackageId}/versions/"
     },
-    "nadeoservices_account_password_reset_add": {
-        "method": "POST",
-        "path": "/accounts/passwordReset/"
-    },
-    "nadeoservices_account_existence_check": {
-        "method": "GET",
-        "path": "/accounts/existence/"
-    },
-    "nadeoservices_user_account_create": {
-        "method": "POST",
-        "path": "/accounts/"
-    },
     "nadeoservices_account_display_name_list_get": {
         "method": "GET",
         "path": "/accounts/displayNames/"
@@ -130,10 +126,6 @@
     "nadeoservices_account_password_set": {
         "method": "PUT",
         "path": "/accounts/{accountId}/password"
-    },
-    "nadeoservices_account_password_reset_set_password": {
-        "method": "PUT",
-        "path": "/accounts/passwordReset/{passwordResetId}/password"
     },
     "nadeoservices_sanction_add": {
         "method": "POST",
@@ -235,6 +227,10 @@
         "method": "POST",
         "path": "/maps/{mapId}"
     },
+    "nadeoservices_maprecordsecureattempt_create": {
+        "method": "POST",
+        "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
+    },
     "nadeoservices_account_maprecord_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/mapRecords/"
@@ -247,9 +243,21 @@
         "method": "GET",
         "path": "/mapRecords/"
     },
+    "nadeoservices_maprecordsecureattempt_patch": {
+        "method": "PATCH",
+        "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
+    },
+    "nadeoservices_maprecordattempt_set": {
+        "method": "POST",
+        "path": "/mapRecordAttempts/"
+    },
     "nadeoservices_maprecord_set": {
         "method": "POST",
         "path": "/mapRecords/"
+    },
+    "nadeoservices_playable_season_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/playableSeasons/"
     },
     "nadeoservices_season_get": {
         "method": "GET",
@@ -377,7 +385,7 @@
     },
     "nadeoservices_account_squad_get": {
         "method": "GET",
-        "path": "accounts/{accountId}/squad/"
+        "path": "/accounts/{accountId}/squad"
     },
     "nadeoservices_squad_get": {
         "method": "GET",
@@ -446,6 +454,10 @@
     "nadeoservices_account_trophy_last_year_summary_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/trophies/lastYearSummary"
+    },
+    "nadeoservices_trophy_competition_match_achievement_add": {
+        "method": "POST",
+        "path": "/trophies/achievements/competition/matchs/"
     },
     "nadeoservices_trophy_competition_get": {
         "method": "GET",
