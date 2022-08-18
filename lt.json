@@ -115,12 +115,12 @@
         "method": "GET",
         "path": "/accounts/{accountId}/servers"
     },
-    "nadeoservices_user_account_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}"
-    },
     "nadeoservices_user_account_patch": {
         "method": "PATCH",
+        "path": "/accounts/{accountId}"
+    },
+    "nadeoservices_user_account_get": {
+        "method": "GET",
         "path": "/accounts/{accountId}"
     },
     "nadeoservices_account_password_set": {
