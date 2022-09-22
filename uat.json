@@ -23,6 +23,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/client/signature"
     },
+    "nadeoservices_account_client_url_config_get": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/client/urls"
+    },
     "nadeoservices_account_client_urls_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/client/urls"
@@ -115,12 +119,12 @@
         "method": "GET",
         "path": "/accounts/{accountId}/servers"
     },
-    "nadeoservices_user_account_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}"
-    },
     "nadeoservices_user_account_patch": {
         "method": "PATCH",
+        "path": "/accounts/{accountId}"
+    },
+    "nadeoservices_user_account_get": {
+        "method": "GET",
         "path": "/accounts/{accountId}"
     },
     "nadeoservices_account_password_set": {
@@ -358,6 +362,10 @@
     "nadeoservices_account_skin_set": {
         "method": "PUT",
         "path": "/accounts/{accountId}/skins/{skinType}"
+    },
+    "nadeoservices_account_inventory_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/inventory"
     },
     "nadeoservices_skin_create": {
         "method": "POST",
