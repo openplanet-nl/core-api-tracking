@@ -311,6 +311,26 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/presence"
     },
+    "nadeoservices_account_prestige_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/prestiges/"
+    },
+    "nadeoservices_account_prestige_current_delete": {
+        "method": "DELETE",
+        "path": "/accounts/{accountId}/prestiges/current"
+    },
+    "nadeoservices_account_prestige_current_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/prestiges/current"
+    },
+    "nadeoservices_account_prestige_current_set": {
+        "method": "PUT",
+        "path": "/accounts/{accountId}/prestiges/current"
+    },
+    "nadeoservices_prestige_list_get": {
+        "method": "GET",
+        "path": "/prestiges/"
+    },
     "nadeoservices_account_profile_chunk_create": {
         "method": "POST",
         "path": "/accounts/{accountId}/profile/chunks/"
