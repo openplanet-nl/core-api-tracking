@@ -315,6 +315,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/prestiges/current"
     },
+    "nadeoservices_current_account_prestige_list_get": {
+        "method": "GET",
+        "path": "/accounts/prestiges/currents/"
+    },
     "nadeoservices_account_prestige_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/prestiges/"
