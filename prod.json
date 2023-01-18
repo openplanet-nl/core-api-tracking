@@ -339,6 +339,10 @@
         "method": "GET",
         "path": "/prestiges/"
     },
+    "nadeoservices_prestige_settings_get": {
+        "method": "GET",
+        "path": "/prestiges/settings"
+    },
     "nadeoservices_account_profile_chunk_create": {
         "method": "POST",
         "path": "/accounts/{accountId}/profile/chunks/"
