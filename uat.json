@@ -311,6 +311,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/subscriptions/"
     },
+    "nadeoservices_account_subscription_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/subscriptions/"
+    },
     "nadeoservices_account_presence_delete": {
         "method": "DELETE",
         "path": "/accounts/{accountId}/presence"
