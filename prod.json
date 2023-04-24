@@ -299,9 +299,21 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/subscription/{subscriptionName}"
     },
+    "nadeoservices_account_subscription_add_v2": {
+        "method": "PUT",
+        "path": "/v2/accounts/{accountId}/subscriptions/{subscriptionName}"
+    },
+    "nadeoservices_account_subscription_psn_purchase_add": {
+        "method": "POST",
+        "path": "/accounts/{accountId}/subscriptions/{subscriptionName}/psn/purchases/"
+    },
     "nadeoservices_account_subscription_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/subscriptions/"
+    },
+    "nadeoservices_account_subscription_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/subscriptions/"
     },
     "nadeoservices_account_presence_delete": {
         "method": "DELETE",
