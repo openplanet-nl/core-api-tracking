@@ -539,6 +539,10 @@
         "method": "POST",
         "path": "/uploads/"
     },
+    "nadeoservices_user_link_get": {
+        "method": "GET",
+        "path": "/userLinks/"
+    },
     "nadeoservices_waiting_queue_client_add": {
         "method": "PUT",
         "path": "/waitingQueue/{waitingClientId}"
