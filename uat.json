@@ -131,6 +131,10 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/password"
     },
+    "nadeoservices_notification_add": {
+        "method": "POST",
+        "path": "/notifications/"
+    },
     "nadeoservices_sanction_add": {
         "method": "POST",
         "path": "/sanctions/"
@@ -270,6 +274,14 @@
     "nadeoservices_season_list_get": {
         "method": "GET",
         "path": "/seasons/"
+    },
+    "nadeoservices_activity_match_create": {
+        "method": "POST",
+        "path": "/matchs/"
+    },
+    "nadeoservices_activity_match_result_set": {
+        "method": "POST",
+        "path": "/matchs/{matchId}/results"
     },
     "nadeoservices_account_club_policy_rule_list_get": {
         "method": "GET",
