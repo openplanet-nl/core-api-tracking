@@ -279,8 +279,12 @@
         "method": "POST",
         "path": "/matchs/"
     },
+    "nadeoservices_activity_match_update": {
+        "method": "PATCH",
+        "path": "/matchs/{matchId}"
+    },
     "nadeoservices_activity_match_result_set": {
-        "method": "POST",
+        "method": "PUT",
         "path": "/matchs/{matchId}/results"
     },
     "nadeoservices_account_club_policy_rule_list_get": {
