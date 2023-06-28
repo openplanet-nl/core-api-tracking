@@ -131,6 +131,10 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/password"
     },
+    "nadeoservices_notification_add": {
+        "method": "POST",
+        "path": "/notifications/"
+    },
     "nadeoservices_sanction_add": {
         "method": "POST",
         "path": "/sanctions/"
@@ -271,6 +275,18 @@
         "method": "GET",
         "path": "/seasons/"
     },
+    "nadeoservices_activity_match_create": {
+        "method": "POST",
+        "path": "/matchs/"
+    },
+    "nadeoservices_activity_match_update": {
+        "method": "PATCH",
+        "path": "/matchs/{matchId}"
+    },
+    "nadeoservices_activity_match_result_set": {
+        "method": "PUT",
+        "path": "/matchs/{matchId}/results"
+    },
     "nadeoservices_account_club_policy_rule_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/policies/club/{clubId}/rules/"
@@ -302,10 +318,6 @@
     "nadeoservices_account_subscription_add_v2": {
         "method": "PUT",
         "path": "/v2/accounts/{accountId}/subscriptions/{subscriptionName}"
-    },
-    "nadeoservices_account_subscription_psn_purchase_add": {
-        "method": "POST",
-        "path": "/accounts/{accountId}/subscriptions/{subscriptionName}/psn/purchases/"
     },
     "nadeoservices_account_subscription_list_get": {
         "method": "GET",
