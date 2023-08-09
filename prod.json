@@ -7,6 +7,10 @@
         "method": "POST",
         "path": "/bots/drivers/"
     },
+    "nadeoservices_driver_bot_index_list_get": {
+        "method": "GET",
+        "path": "/bots/drivers/indexes/"
+    },
     "nadeoservices_driver_bot_list_get": {
         "method": "GET",
         "path": "/bots/drivers/"
