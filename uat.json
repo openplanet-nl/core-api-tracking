@@ -111,10 +111,6 @@
         "method": "POST",
         "path": "/encryptedPackages/{encryptedPackageId}/versions/"
     },
-    "nadeoservices_account_display_name_list_get": {
-        "method": "GET",
-        "path": "/accounts/displayNames/"
-    },
     "nadeoservices_server_account_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/servers/"
