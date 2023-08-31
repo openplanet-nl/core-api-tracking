@@ -551,10 +551,6 @@
         "method": "POST",
         "path": "/uploads/"
     },
-    "nadeoservices_user_link_get_v2": {
-        "method": "GET",
-        "path": "/v2/userLinks/"
-    },
     "nadeoservices_user_link_get": {
         "method": "GET",
         "path": "/userLinks/"
