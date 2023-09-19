@@ -167,10 +167,6 @@
         "method": "POST",
         "path": "/v2/authentication/token/unsecure"
     },
-    "nadeoservices_delegation_token_create_from_nadeoservices_v2": {
-        "method": "POST",
-        "path": "/v2/authentication/delegation-token/nadeoservices"
-    },
     "nadeoservices_webidentity_list_get": {
         "method": "GET",
         "path": "/webidentities/"
