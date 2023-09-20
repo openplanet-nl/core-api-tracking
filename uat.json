@@ -31,10 +31,6 @@
         "method": "GET",
         "path": "/v2/accounts/{accountId}/client/urls"
     },
-    "nadeoservices_account_client_urls_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/client/urls"
-    },
     "nadeoservices_client_config_get": {
         "method": "GET",
         "path": "/client/config"
