@@ -255,10 +255,6 @@
         "method": "POST",
         "path": "/mapRecordAttempts/"
     },
-    "nadeoservices_maprecord_set": {
-        "method": "POST",
-        "path": "/mapRecords/"
-    },
     "nadeoservices_playable_season_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/playableSeasons/"
