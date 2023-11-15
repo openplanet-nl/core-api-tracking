@@ -67,6 +67,10 @@
         "method": "POST",
         "path": "/client/logs/"
     },
+    "nadeoservices_client_debug_info_add": {
+        "method": "POST",
+        "path": "/client/debug/"
+    },
     "nadeoservices_club_get": {
         "method": "GET",
         "path": "/clubs/{clubId}"
