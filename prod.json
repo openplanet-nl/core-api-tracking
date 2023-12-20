@@ -55,10 +55,6 @@
         "method": "GET",
         "path": "/client/updaters/current"
     },
-    "nadeoservices_client_updater_file_get_v2": {
-        "method": "GET",
-        "path": "/v2/client/updaters/{clientUpdaterId}"
-    },
     "nadeoservices_client_updater_file_set": {
         "method": "POST",
         "path": "/client/updaters/{clientUpdaterId}"
@@ -66,6 +62,10 @@
     "nadeoservices_client_log_add": {
         "method": "POST",
         "path": "/client/logs/"
+    },
+    "nadeoservices_client_debug_info_add": {
+        "method": "POST",
+        "path": "/client/debug/"
     },
     "nadeoservices_club_get": {
         "method": "GET",
