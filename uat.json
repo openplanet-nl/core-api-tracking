@@ -19,21 +19,21 @@
         "method": "GET",
         "path": "/accounts/{accountId}/client/config"
     },
-    "nadeoservices_account_client_plugins_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/client/plugins"
-    },
     "nadeoservices_account_client_signature_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/client/signature"
     },
-    "nadeoservices_account_client_url_config_get": {
-        "method": "GET",
-        "path": "/v2/accounts/{accountId}/client/urls"
-    },
     "nadeoservices_client_config_get": {
         "method": "GET",
         "path": "/client/config"
+    },
+    "nadeoservices_account_client_plugins_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/client/plugins"
+    },
+    "nadeoservices_account_client_url_config_get": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/client/urls"
     },
     "nadeoservices_title_client_config_get": {
         "method": "GET",
@@ -166,6 +166,10 @@
     "nadeoservices_token_create_from_unsecure_v2": {
         "method": "POST",
         "path": "/v2/authentication/token/unsecure"
+    },
+    "nadeoservices_delegation_token_create_from_nadeoservices_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/nadeoservices"
     },
     "nadeoservices_webidentity_list_get": {
         "method": "GET",
