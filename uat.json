@@ -431,38 +431,6 @@
         "method": "GET",
         "path": "/skins/"
     },
-    "nadeoservices_squad_invitation_accept": {
-        "method": "PUT",
-        "path": "/squads/{squadId}/members/{accountId}"
-    },
-    "nadeoservices_squad_invitation_add": {
-        "method": "POST",
-        "path": "/squads/{squadId}/invitations/"
-    },
-    "nadeoservices_squad_create": {
-        "method": "POST",
-        "path": "/squads/"
-    },
-    "nadeoservices_account_squad_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/squad"
-    },
-    "nadeoservices_squad_get": {
-        "method": "GET",
-        "path": "/squads/{squadId}"
-    },
-    "nadeoservices_squad_leader_set": {
-        "method": "PUT",
-        "path": "/squads/{squadId}/leader"
-    },
-    "nadeoservices_squad_invitation_remove": {
-        "method": "DELETE",
-        "path": "/squads/{squadId}/invitations/{invitedAccountId}"
-    },
-    "nadeoservices_squad_member_remove": {
-        "method": "DELETE",
-        "path": "/squads/{squadId}/members/{memberAccountId}"
-    },
     "nadeoservices_account_station_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/stations/"
