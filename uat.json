@@ -235,30 +235,6 @@
         "method": "POST",
         "path": "/maps/{mapId}"
     },
-    "nadeoservices_maprecordsecureattempt_create": {
-        "method": "POST",
-        "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
-    },
-    "nadeoservices_account_maprecord_list_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/mapRecords/"
-    },
-    "nadeoservices_maprecord_get": {
-        "method": "GET",
-        "path": "/mapRecords/{mapRecordId}"
-    },
-    "nadeoservices_maprecord_list_get": {
-        "method": "GET",
-        "path": "/mapRecords/"
-    },
-    "nadeoservices_maprecordsecureattempt_patch": {
-        "method": "PATCH",
-        "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
-    },
-    "nadeoservices_maprecordattempt_set": {
-        "method": "POST",
-        "path": "/mapRecordAttempts/"
-    },
     "nadeoservices_playable_season_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/playableSeasons/"
