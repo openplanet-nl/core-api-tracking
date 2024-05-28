@@ -307,17 +307,9 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/subscriptions/{subscriptionName}"
     },
-    "nadeoservices_account_subscription_add_deprecated": {
-        "method": "PUT",
-        "path": "/accounts/{accountId}/subscription/{subscriptionName}"
-    },
     "nadeoservices_account_subscription_add_v2": {
         "method": "PUT",
         "path": "/v2/accounts/{accountId}/subscriptions/{subscriptionName}"
-    },
-    "nadeoservices_account_subscription_list_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/subscriptions/"
     },
     "nadeoservices_account_subscription_list_get_v2": {
         "method": "GET",
