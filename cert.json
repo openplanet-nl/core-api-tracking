@@ -451,6 +451,10 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/clubTag"
     },
+    "nadeoservices_telemetry_map_session_add": {
+        "method": "POST",
+        "path": "/telemetry/map-session"
+    },
     "nadeoservices_title_create": {
         "method": "POST",
         "path": "/titles/"
