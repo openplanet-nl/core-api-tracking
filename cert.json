@@ -243,6 +243,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/mapRecords/"
     },
+    "nadeoservices_account_maprecord_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/mapRecords/"
+    },
     "nadeoservices_maprecord_get": {
         "method": "GET",
         "path": "/mapRecords/{mapRecordId}"
@@ -250,6 +254,10 @@
     "nadeoservices_maprecord_list_get": {
         "method": "GET",
         "path": "/mapRecords/"
+    },
+    "nadeoservices_maprecord_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/"
     },
     "nadeoservices_maprecordsecureattempt_patch": {
         "method": "PATCH",
