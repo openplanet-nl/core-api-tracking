@@ -263,6 +263,10 @@
         "method": "PATCH",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
     },
+    "nadeoservices_map_record_url_redirect": {
+        "method": "GET",
+        "path": "/mapRecords/{mapRecordId}/replay"
+    },
     "nadeoservices_maprecordattempt_set": {
         "method": "POST",
         "path": "/mapRecordAttempts/"
