@@ -227,6 +227,14 @@
         "method": "GET",
         "path": "/maps/{mapId}"
     },
+    "nadeoservices_map_file_url_redirect": {
+        "method": "GET",
+        "path": "/maps/{mapId}/file"
+    },
+    "nadeoservices_map_thumbnail_url_redirect": {
+        "method": "GET",
+        "path": "/maps/{mapId}/thumbnail"
+    },
     "nadeoservices_map_list_get": {
         "method": "GET",
         "path": "/maps/"
