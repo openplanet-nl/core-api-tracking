@@ -227,6 +227,18 @@
         "method": "GET",
         "path": "/maps/{mapId}"
     },
+    "nadeoservices_map_file_url_redirect": {
+        "method": "GET",
+        "path": "/maps/{mapId}/file"
+    },
+    "nadeoservices_map_thumbnail_url_redirect": {
+        "method": "GET",
+        "path": "/maps/{mapId}/thumbnail"
+    },
+    "nadeoservices_map_thumbnail_jpg_url_redirect": {
+        "method": "GET",
+        "path": "/maps/{mapId}/thumbnail.jpg"
+    },
     "nadeoservices_map_list_get": {
         "method": "GET",
         "path": "/maps/"
@@ -262,6 +274,10 @@
     "nadeoservices_maprecordsecureattempt_patch": {
         "method": "PATCH",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
+    },
+    "nadeoservices_map_record_url_redirect": {
+        "method": "GET",
+        "path": "/mapRecords/{mapRecordId}/replay"
     },
     "nadeoservices_maprecordattempt_set": {
         "method": "POST",
