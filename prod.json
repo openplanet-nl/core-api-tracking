@@ -51,10 +51,6 @@
         "method": "GET",
         "path": "/client/files/"
     },
-    "nadeoservices_client_updater_file_get": {
-        "method": "GET",
-        "path": "/client/updaters/current"
-    },
     "nadeoservices_client_updater_file_get_v2": {
         "method": "GET",
         "path": "/v2/client/updaters/{clientUpdaterId}"
@@ -250,10 +246,6 @@
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
-    },
-    "nadeoservices_account_maprecord_list_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/mapRecords/"
     },
     "nadeoservices_account_maprecord_list_get_v2": {
         "method": "GET",
