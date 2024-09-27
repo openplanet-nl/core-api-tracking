@@ -511,6 +511,26 @@
         "method": "GET",
         "path": "/competitions/"
     },
+    "nadeoservices_upload_configuration_get": {
+        "method": "OPTIONS",
+        "path": "/uploads/"
+    },
+    "nadeoservices_upload_terminate": {
+        "method": "DELETE",
+        "path": "/uploads/{uploadId}"
+    },
+    "nadeoservices_upload_info_get": {
+        "method": "HEAD",
+        "path": "/uploads/{uploadId}"
+    },
+    "nadeoservices_upload_data_add": {
+        "method": "PATCH",
+        "path": "/uploads/{uploadId}"
+    },
+    "nadeoservices_upload_create": {
+        "method": "POST",
+        "path": "/uploads/"
+    },
     "nadeoservices_user_link_get": {
         "method": "GET",
         "path": "/userLinks/"
