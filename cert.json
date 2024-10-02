@@ -43,6 +43,10 @@
         "method": "POST",
         "path": "/client/files/"
     },
+    "nadeoservices_client_file_delete": {
+        "method": "DELETE",
+        "path": "/client/files/{clientFileId}"
+    },
     "nadeoservices_client_file_get": {
         "method": "GET",
         "path": "/client/files/{clientFileId}"
