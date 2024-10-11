@@ -247,6 +247,14 @@
         "method": "POST",
         "path": "/maps/{mapId}"
     },
+    "nadeoservices_map_vote": {
+        "method": "POST",
+        "path": "/maps/{mapUid}/votes"
+    },
+    "nadeoservices_map_vote_get": {
+        "method": "GET",
+        "path": "/maps/{mapUid}/votes"
+    },
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
