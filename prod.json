@@ -43,6 +43,10 @@
         "method": "POST",
         "path": "/client/files/"
     },
+    "nadeoservices_client_file_delete": {
+        "method": "DELETE",
+        "path": "/client/files/{clientFileId}"
+    },
     "nadeoservices_client_file_get": {
         "method": "GET",
         "path": "/client/files/{clientFileId}"
@@ -242,6 +246,30 @@
     "nadeoservices_map_set": {
         "method": "POST",
         "path": "/maps/{mapId}"
+    },
+    "nadeoservices_map_favorite_create": {
+        "method": "POST",
+        "path": "/maps/favorites"
+    },
+    "nadeoservices_map_favorite_delete": {
+        "method": "DELETE",
+        "path": "/maps/favorites"
+    },
+    "nadeoservices_map_favorite_get": {
+        "method": "GET",
+        "path": "/maps/favorites"
+    },
+    "nadeoservices_map_favorite_get_by_map_uids": {
+        "method": "GET",
+        "path": "/maps/favorites/by-map-uids"
+    },
+    "nadeoservices_map_vote": {
+        "method": "POST",
+        "path": "/maps/{mapUid}/votes"
+    },
+    "nadeoservices_map_vote_get": {
+        "method": "GET",
+        "path": "/maps/{mapUid}/votes"
     },
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
