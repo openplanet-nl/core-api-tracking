@@ -243,6 +243,14 @@
         "method": "GET",
         "path": "/maps/"
     },
+    "nadeoservices_map_list_by_submitter_get": {
+        "method": "GET",
+        "path": "/maps/by-submitter/"
+    },
+    "nadeoservices_map_list_by_author_get": {
+        "method": "GET",
+        "path": "/maps/by-author/"
+    },
     "nadeoservices_map_set": {
         "method": "POST",
         "path": "/maps/{mapId}"
@@ -451,10 +459,6 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/skins/{skinType}"
     },
-    "nadeoservices_account_inventory_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/inventory"
-    },
     "nadeoservices_skin_create": {
         "method": "POST",
         "path": "/skins/"
@@ -466,6 +470,18 @@
     "nadeoservices_skin_list_get": {
         "method": "GET",
         "path": "/skins/"
+    },
+    "nadeoservices_skin_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/skins/by-id/"
+    },
+    "nadeoservices_skin_list_by_checksum_list_get": {
+        "method": "GET",
+        "path": "/skins/by-checksum/"
+    },
+    "nadeoservices_skin_list_by_creator_id_get": {
+        "method": "GET",
+        "path": "/skins/by-creator/"
     },
     "nadeoservices_account_station_list_get": {
         "method": "GET",
