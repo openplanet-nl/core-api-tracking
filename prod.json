@@ -551,6 +551,18 @@
         "method": "GET",
         "path": "/competitions/"
     },
+    "nadeoservices_trophy_competition_list_by_account_get": {
+        "method": "GET",
+        "path": "/competitions/by-account/"
+    },
+    "nadeoservices_trophy_competition_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/competitions/by-id/"
+    },
+    "nadeoservices_trophy_competition_list_by_name_list_get": {
+        "method": "GET",
+        "path": "/competitions/by-name/"
+    },
     "nadeoservices_upload_configuration_get": {
         "method": "OPTIONS",
         "path": "/uploads/"
