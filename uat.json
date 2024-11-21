@@ -55,6 +55,14 @@
         "method": "GET",
         "path": "/client/files/"
     },
+    "nadeoservices_client_file_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/client/files/by-id/"
+    },
+    "nadeoservices_client_file_list_by_checksum_list_get": {
+        "method": "GET",
+        "path": "/client/files/by-checksum/"
+    },
     "nadeoservices_client_updater_file_get_v2": {
         "method": "GET",
         "path": "/v2/client/updaters/{clientUpdaterId}"
@@ -87,6 +95,14 @@
         "method": "GET",
         "path": "/encryptedPackages/"
     },
+    "nadeoservices_encrypted_package_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/encryptedPackages/by-id/"
+    },
+    "nadeoservices_encrypted_package_list_by_title_id_list_get": {
+        "method": "GET",
+        "path": "/encryptedPackages/by-title-id/"
+    },
     "nadeoservices_encrypted_package_create": {
         "method": "POST",
         "path": "/encryptedPackages/"
@@ -102,6 +118,14 @@
     "nadeoservices_encrypted-package-version_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/"
+    },
+    "nadeoservices_encrypted-package-version_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/encryptedPackages/versions/by-id/"
+    },
+    "nadeoservices_encrypted-package-version_list_by_checksum_list_get": {
+        "method": "GET",
+        "path": "/encryptedPackages/versions/by-checksum/"
     },
     "nadeoservices_encrypted_package_version_crypt_key_get": {
         "method": "GET",
