@@ -35,10 +35,6 @@
         "method": "GET",
         "path": "/v2/accounts/{accountId}/client/urls"
     },
-    "nadeoservices_title_client_config_get": {
-        "method": "GET",
-        "path": "/titles/{titleId}/client/config"
-    },
     "nadeoservices_client_file_create": {
         "method": "POST",
         "path": "/client/files/"
@@ -262,6 +258,18 @@
     "nadeoservices_item_collection_version_list_by_checksum_list_get": {
         "method": "GET",
         "path": "/itemCollections/{itemCollectionId}/versions/by-checksum/"
+    },
+    "nadeoservices_title_create": {
+        "method": "POST",
+        "path": "/titles/"
+    },
+    "nadeoservices_title_set": {
+        "method": "PUT",
+        "path": "/titles/{titleId}"
+    },
+    "nadeoservices_account_title_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/titles/"
     },
     "nadeoservices_map_create": {
         "method": "POST",
@@ -574,18 +582,6 @@
     "nadeoservices_telemetry_map_session_add": {
         "method": "POST",
         "path": "/telemetry/map-session"
-    },
-    "nadeoservices_title_create": {
-        "method": "POST",
-        "path": "/titles/"
-    },
-    "nadeoservices_title_set": {
-        "method": "PUT",
-        "path": "/titles/{titleId}"
-    },
-    "nadeoservices_account_title_list_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/titles/"
     },
     "nadeoservices_trophy_settings_get": {
         "method": "GET",
