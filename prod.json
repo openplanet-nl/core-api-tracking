@@ -35,10 +35,6 @@
         "method": "GET",
         "path": "/v2/accounts/{accountId}/client/urls"
     },
-    "nadeoservices_title_client_config_get": {
-        "method": "GET",
-        "path": "/titles/{titleId}/client/config"
-    },
     "nadeoservices_client_file_create": {
         "method": "POST",
         "path": "/client/files/"
@@ -101,7 +97,7 @@
     },
     "nadeoservices_encrypted_package_list_by_title_id_list_get": {
         "method": "GET",
-        "path": "/encryptedPackages/by-title-id/"
+        "path": "/encryptedPackages/by-title/"
     },
     "nadeoservices_encrypted_package_create": {
         "method": "POST",
@@ -223,13 +219,25 @@
         "method": "GET",
         "path": "/itemCollections/"
     },
+    "nadeoservices_item_collection_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/itemCollections/by-id/"
+    },
+    "nadeoservices_item_collection_list_by_creator_get": {
+        "method": "GET",
+        "path": "/itemCollections/by-creator/"
+    },
+    "nadeoservices_item_collection_list_by_name_list_get": {
+        "method": "GET",
+        "path": "/itemCollections/by-name/"
+    },
+    "nadeoservices_item_collection_list_by_identifier_list_get": {
+        "method": "GET",
+        "path": "/itemCollections/by-identifier/"
+    },
     "nadeoservices_item_collection_set": {
         "method": "PUT",
         "path": "/itemCollections/{itemCollectionId}"
-    },
-    "nadeoservices_item_collection_activity_set": {
-        "method": "PUT",
-        "path": "/itemCollections/{itemCollectionId}/activity"
     },
     "nadeoservices_item_collection_version_create": {
         "method": "POST",
@@ -242,6 +250,26 @@
     "nadeoservices_item_collection_version_list_get": {
         "method": "GET",
         "path": "/itemCollections/{itemCollectionId}/versions/"
+    },
+    "nadeoservices_item_collection_version_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/itemCollections/{itemCollectionId}/versions/by-id/"
+    },
+    "nadeoservices_item_collection_version_list_by_checksum_list_get": {
+        "method": "GET",
+        "path": "/itemCollections/{itemCollectionId}/versions/by-checksum/"
+    },
+    "nadeoservices_title_create": {
+        "method": "POST",
+        "path": "/titles/"
+    },
+    "nadeoservices_title_set": {
+        "method": "PUT",
+        "path": "/titles/{titleId}"
+    },
+    "nadeoservices_account_title_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/titles/"
     },
     "nadeoservices_map_create": {
         "method": "POST",
@@ -259,13 +287,21 @@
         "method": "GET",
         "path": "/maps/{mapId}/thumbnail"
     },
-    "nadeoservices_map_thumbnail_jpg_url_redirect": {
-        "method": "GET",
-        "path": "/maps/{mapId}/thumbnail.jpg"
-    },
     "nadeoservices_map_list_get": {
         "method": "GET",
         "path": "/maps/"
+    },
+    "nadeoservices_map_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/maps/by-id/"
+    },
+    "nadeoservices_map_list_by_uid_list_get": {
+        "method": "GET",
+        "path": "/maps/by-uid/"
+    },
+    "nadeoservices_map_list_by_account_get": {
+        "method": "GET",
+        "path": "/maps/by-account/"
     },
     "nadeoservices_map_list_by_submitter_get": {
         "method": "GET",
@@ -427,6 +463,14 @@
         "method": "GET",
         "path": "/prestiges/"
     },
+    "nadeoservices_prestige_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/prestiges/by_id/"
+    },
+    "nadeoservices_prestige_list_by_criteria_list_get": {
+        "method": "GET",
+        "path": "/prestiges/by_criteria/"
+    },
     "nadeoservices_prestige_settings_get": {
         "method": "GET",
         "path": "/prestiges/settings"
@@ -538,18 +582,6 @@
     "nadeoservices_telemetry_map_session_add": {
         "method": "POST",
         "path": "/telemetry/map-session"
-    },
-    "nadeoservices_title_create": {
-        "method": "POST",
-        "path": "/titles/"
-    },
-    "nadeoservices_title_set": {
-        "method": "PUT",
-        "path": "/titles/{titleId}"
-    },
-    "nadeoservices_account_title_list_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/titles/"
     },
     "nadeoservices_trophy_settings_get": {
         "method": "GET",
