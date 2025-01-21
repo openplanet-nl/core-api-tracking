@@ -583,30 +583,6 @@
         "method": "POST",
         "path": "/telemetry/map-session"
     },
-    "api_title_portal_get": {
-        "method": "GET",
-        "path": "/api/title/portal"
-    },
-    "app_title_title_get_by_uids": {
-        "method": "GET",
-        "path": "/api/title/titles/get-by-uids"
-    },
-    "app_title_title_get_progression": {
-        "method": "GET",
-        "path": "/api/title/titles/{titleUid}/progression"
-    },
-    "app_title_title_challenge_get_progression": {
-        "method": "GET",
-        "path": "/api/title/titles/{titleUid}/challenges/progression"
-    },
-    "app_title_title_challenge_save_progression": {
-        "method": "POST",
-        "path": "/api/title/titles/{titleUid}/challenges/progression/save"
-    },
-    "app_title_title_get_bonus": {
-        "method": "GET",
-        "path": "/api/title/titles/{titleUid}/bonus"
-    },
     "nadeoservices_trophy_settings_get": {
         "method": "GET",
         "path": "/trophies/settings"
