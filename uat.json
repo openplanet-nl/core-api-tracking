@@ -359,6 +359,14 @@
         "method": "GET",
         "path": "/v2/mapRecords/"
     },
+    "nadeoservices_maprecord_list_by_id_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/by-id/"
+    },
+    "nadeoservices_maprecord_list_by_account_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/by-account/"
+    },
     "nadeoservices_maprecordsecureattempt_patch": {
         "method": "PATCH",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
