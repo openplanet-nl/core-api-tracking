@@ -195,6 +195,14 @@
         "method": "GET",
         "path": "/webidentities/"
     },
+    "nadeoservices_webidentity_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/webidentities/by-id/"
+    },
+    "nadeoservices_webidentity_list_by_account_list_get": {
+        "method": "GET",
+        "path": "/webidentities/by-account/"
+    },
     "nadeoservices_account_item_collection_favorite_add": {
         "method": "PUT",
         "path": "/accounts/{accountId}/itemCollections/favorites/{itemCollectionId}"
