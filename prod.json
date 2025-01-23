@@ -405,11 +405,11 @@
     },
     "nadeoservices_account_club_policy_rule_list_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}/policies/club/{clubId}/rules/"
+        "path": "/accounts/{accountId}/policies/club/{policyResourceValue}/rules/"
     },
     "nadeoservices_account_encrypted_package_policy_rule_list_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}/policies/encryptedPackages/{encryptedPackageId}/rules/"
+        "path": "/accounts/{accountId}/policies/encryptedPackages/{policyResourceValue}/rules/"
     },
     "nadeoservices_account_global_policy_rule_list_get": {
         "method": "GET",
@@ -417,11 +417,23 @@
     },
     "nadeoservices_account_title_policy_rule_list_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}/policies/titles/{titleId}/rules/"
+        "path": "/accounts/{accountId}/policies/titles/{policyResourceValue}/rules/"
     },
     "nadeoservices_policy_list_get": {
         "method": "GET",
         "path": "/policies/"
+    },
+    "nadeoservices_policy_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/policies/by-id/"
+    },
+    "nadeoservices_policy_list_by_name_list_get": {
+        "method": "GET",
+        "path": "/policies/by-name/"
+    },
+    "nadeoservices_policy_list_by_range_get": {
+        "method": "GET",
+        "path": "/policies/by-paging/"
     },
     "nadeoservices_account_subscription_add": {
         "method": "PUT",
@@ -473,7 +485,7 @@
     },
     "nadeoservices_prestige_list_by_id_list_get": {
         "method": "GET",
-        "path": "/prestiges/by_id/"
+        "path": "/prestiges/by-id/"
     },
     "nadeoservices_prestige_list_by_criteria_list_get": {
         "method": "GET",
