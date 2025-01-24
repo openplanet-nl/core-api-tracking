@@ -187,9 +187,17 @@
         "method": "POST",
         "path": "/v2/authentication/token/unsecure"
     },
+    "nadeoservices_delegation_token_create_from_basic_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/basic"
+    },
     "nadeoservices_delegation_token_create_from_nadeoservices_v2": {
         "method": "POST",
         "path": "/v2/authentication/delegation-token/nadeoservices"
+    },
+    "nadeoservices_delegation_token_create_from_ubiservices_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/ubiservices"
     },
     "nadeoservices_webidentity_list_get": {
         "method": "GET",
