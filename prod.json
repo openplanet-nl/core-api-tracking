@@ -187,13 +187,29 @@
         "method": "POST",
         "path": "/v2/authentication/token/unsecure"
     },
+    "nadeoservices_delegation_token_create_from_basic_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/basic"
+    },
     "nadeoservices_delegation_token_create_from_nadeoservices_v2": {
         "method": "POST",
         "path": "/v2/authentication/delegation-token/nadeoservices"
     },
+    "nadeoservices_delegation_token_create_from_ubiservices_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/ubiservices"
+    },
     "nadeoservices_webidentity_list_get": {
         "method": "GET",
         "path": "/webidentities/"
+    },
+    "nadeoservices_webidentity_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/webidentities/by-id/"
+    },
+    "nadeoservices_webidentity_list_by_account_list_get": {
+        "method": "GET",
+        "path": "/webidentities/by-account/"
     },
     "nadeoservices_account_item_collection_favorite_add": {
         "method": "PUT",
