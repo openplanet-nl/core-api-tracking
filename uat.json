@@ -151,18 +151,6 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/password"
     },
-    "nadeoservices_notification_add": {
-        "method": "POST",
-        "path": "/notifications/"
-    },
-    "nadeoservices_sanction_add": {
-        "method": "POST",
-        "path": "/sanctions/"
-    },
-    "nadeoservices_sanction_lift_add": {
-        "method": "POST",
-        "path": "/sanctionsLift/"
-    },
     "nadeoservices_token_create_from_basic_v2": {
         "method": "POST",
         "path": "/v2/authentication/token/basic"
