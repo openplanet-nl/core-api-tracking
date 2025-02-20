@@ -75,14 +75,6 @@
         "method": "POST",
         "path": "/client/debug/"
     },
-    "nadeoservices_club_get": {
-        "method": "GET",
-        "path": "/clubs/{clubId}"
-    },
-    "nadeoservices_club_list_get": {
-        "method": "GET",
-        "path": "/clubs/"
-    },
     "nadeoservices_account_encrypted_package_key_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/encryptedPackage/key"
@@ -606,6 +598,14 @@
     "nadeoservices_telemetry_map_session_add": {
         "method": "POST",
         "path": "/telemetry/map-session"
+    },
+    "nadeoservices_club_get": {
+        "method": "GET",
+        "path": "/clubs/{clubId}"
+    },
+    "nadeoservices_club_list_get": {
+        "method": "GET",
+        "path": "/clubs/"
     },
     "nadeoservices_trophy_settings_get": {
         "method": "GET",
