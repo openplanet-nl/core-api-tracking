@@ -327,6 +327,14 @@
         "method": "GET",
         "path": "/maps/favorites/by-map-uids"
     },
+    "nadeoservices_map_generation_create": {
+        "method": "POST",
+        "path": "/api/map/generations/"
+    },
+    "nadeoservices_map_generation_get": {
+        "method": "GET",
+        "path": "/api/map/generations/{mapGenerationId}"
+    },
     "nadeoservices_map_vote": {
         "method": "POST",
         "path": "/maps/{mapUid}/votes"
