@@ -1,5 +1,5 @@
 {
-    "nadeoservices_storage_object_content_url_redirect": {
+    "nadeoservices_storage_object_url_redirect": {
         "method": "GET",
         "path": "/storageObjects/{storageObjectId}"
     },
