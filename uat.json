@@ -475,6 +475,10 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/currentPrestige"
     },
+    "nadeoservices_all_prestige_list_get": {
+        "method": "GET",
+        "path": "/prestiges/all/"
+    },
     "nadeoservices_prestige_list_get": {
         "method": "GET",
         "path": "/prestiges/"
