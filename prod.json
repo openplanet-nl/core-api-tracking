@@ -1,5 +1,5 @@
 {
-    "nadeoservices_storage_object_content_url_redirect": {
+    "nadeoservices_storage_object_url_redirect": {
         "method": "GET",
         "path": "/storageObjects/{storageObjectId}"
     },
@@ -474,6 +474,10 @@
     "nadeoservices_account_prestige_current_set": {
         "method": "PUT",
         "path": "/accounts/{accountId}/currentPrestige"
+    },
+    "nadeoservices_all_prestige_list_get": {
+        "method": "GET",
+        "path": "/prestiges/all/"
     },
     "nadeoservices_prestige_list_get": {
         "method": "GET",
