@@ -107,11 +107,11 @@
         "method": "GET",
         "path": "/encryptedPackages/versions/"
     },
-    "nadeoservices_encrypted-package-version_list_by_id_list_get": {
+    "nadeoservices_encrypted_package_version_list_by_id_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/by-id/"
     },
-    "nadeoservices_encrypted-package-version_list_by_checksum_list_get": {
+    "nadeoservices_encrypted_package_version_list_by_checksum_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/by-checksum/"
     },
