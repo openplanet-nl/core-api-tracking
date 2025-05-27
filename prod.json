@@ -107,11 +107,11 @@
         "method": "GET",
         "path": "/encryptedPackages/versions/"
     },
-    "nadeoservices_encrypted-package-version_list_by_id_list_get": {
+    "nadeoservices_encrypted_package_version_list_by_id_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/by-id/"
     },
-    "nadeoservices_encrypted-package-version_list_by_checksum_list_get": {
+    "nadeoservices_encrypted_package_version_list_by_checksum_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/by-checksum/"
     },
@@ -387,6 +387,14 @@
         "method": "GET",
         "path": "/seasons/"
     },
+    "nadeoservices_season_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/seasons/by-id/"
+    },
+    "nadeoservices_season_list_by_creator_get": {
+        "method": "GET",
+        "path": "/seasons/by-creator/"
+    },
     "nadeoservices_activity_match_create": {
         "method": "POST",
         "path": "/matchs/"
@@ -427,7 +435,7 @@
         "method": "GET",
         "path": "/policies/by-name/"
     },
-    "nadeoservices_policy_list_by_range_get": {
+    "nadeoservices_policy_list_by_paging_get": {
         "method": "GET",
         "path": "/policies/by-paging/"
     },
@@ -462,6 +470,10 @@
     "nadeoservices_account_prestige_list_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/prestiges/"
+    },
+    "nadeoservices_account_prestige_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/prestiges/"
     },
     "nadeoservices_account_prestige_current_delete": {
         "method": "DELETE",
