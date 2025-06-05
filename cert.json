@@ -1,5 +1,5 @@
 {
-    "nadeoservices_storage_object_content_url_redirect": {
+    "nadeoservices_storage_object_url_redirect": {
         "method": "GET",
         "path": "/storageObjects/{storageObjectId}"
     },
@@ -75,14 +75,6 @@
         "method": "POST",
         "path": "/client/debug/"
     },
-    "nadeoservices_club_get": {
-        "method": "GET",
-        "path": "/clubs/{clubId}"
-    },
-    "nadeoservices_club_list_get": {
-        "method": "GET",
-        "path": "/clubs/"
-    },
     "nadeoservices_account_encrypted_package_key_get": {
         "method": "GET",
         "path": "/accounts/{accountId}/encryptedPackage/key"
@@ -115,11 +107,11 @@
         "method": "GET",
         "path": "/encryptedPackages/versions/"
     },
-    "nadeoservices_encrypted-package-version_list_by_id_list_get": {
+    "nadeoservices_encrypted_package_version_list_by_id_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/by-id/"
     },
-    "nadeoservices_encrypted-package-version_list_by_checksum_list_get": {
+    "nadeoservices_encrypted_package_version_list_by_checksum_list_get": {
         "method": "GET",
         "path": "/encryptedPackages/versions/by-checksum/"
     },
@@ -151,18 +143,6 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/password"
     },
-    "nadeoservices_notification_add": {
-        "method": "POST",
-        "path": "/notifications/"
-    },
-    "nadeoservices_sanction_add": {
-        "method": "POST",
-        "path": "/sanctions/"
-    },
-    "nadeoservices_sanction_lift_add": {
-        "method": "POST",
-        "path": "/sanctionsLift/"
-    },
     "nadeoservices_token_create_from_basic_v2": {
         "method": "POST",
         "path": "/v2/authentication/token/basic"
@@ -187,13 +167,29 @@
         "method": "POST",
         "path": "/v2/authentication/token/unsecure"
     },
+    "nadeoservices_delegation_token_create_from_basic_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/basic"
+    },
     "nadeoservices_delegation_token_create_from_nadeoservices_v2": {
         "method": "POST",
         "path": "/v2/authentication/delegation-token/nadeoservices"
     },
+    "nadeoservices_delegation_token_create_from_ubiservices_v2": {
+        "method": "POST",
+        "path": "/v2/authentication/delegation-token/ubiservices"
+    },
     "nadeoservices_webidentity_list_get": {
         "method": "GET",
         "path": "/webidentities/"
+    },
+    "nadeoservices_webidentity_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/webidentities/by-id/"
+    },
+    "nadeoservices_webidentity_list_by_account_list_get": {
+        "method": "GET",
+        "path": "/webidentities/by-account/"
     },
     "nadeoservices_account_item_collection_favorite_add": {
         "method": "PUT",
@@ -323,11 +319,11 @@
         "method": "DELETE",
         "path": "/maps/favorites"
     },
-    "nadeoservices_map_favorite_get": {
+    "nadeoservices_map_favorite_list_get": {
         "method": "GET",
         "path": "/maps/favorites"
     },
-    "nadeoservices_map_favorite_get_by_map_uids": {
+    "nadeoservices_map_favorite_list_by_uid_list_get": {
         "method": "GET",
         "path": "/maps/favorites/by-map-uids"
     },
@@ -359,6 +355,14 @@
         "method": "GET",
         "path": "/v2/mapRecords/"
     },
+    "nadeoservices_maprecord_list_by_id_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/by-id/"
+    },
+    "nadeoservices_maprecord_list_by_account_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/by-account/"
+    },
     "nadeoservices_maprecordsecureattempt_patch": {
         "method": "PATCH",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/{creatorId}"
@@ -383,6 +387,14 @@
         "method": "GET",
         "path": "/seasons/"
     },
+    "nadeoservices_season_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/seasons/by-id/"
+    },
+    "nadeoservices_season_list_by_creator_get": {
+        "method": "GET",
+        "path": "/seasons/by-creator/"
+    },
     "nadeoservices_activity_match_create": {
         "method": "POST",
         "path": "/matchs/"
@@ -397,11 +409,11 @@
     },
     "nadeoservices_account_club_policy_rule_list_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}/policies/club/{clubId}/rules/"
+        "path": "/accounts/{accountId}/policies/club/{policyResourceValue}/rules/"
     },
     "nadeoservices_account_encrypted_package_policy_rule_list_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}/policies/encryptedPackages/{encryptedPackageId}/rules/"
+        "path": "/accounts/{accountId}/policies/encryptedPackages/{policyResourceValue}/rules/"
     },
     "nadeoservices_account_global_policy_rule_list_get": {
         "method": "GET",
@@ -409,11 +421,23 @@
     },
     "nadeoservices_account_title_policy_rule_list_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}/policies/titles/{titleId}/rules/"
+        "path": "/accounts/{accountId}/policies/titles/{policyResourceValue}/rules/"
     },
     "nadeoservices_policy_list_get": {
         "method": "GET",
         "path": "/policies/"
+    },
+    "nadeoservices_policy_list_by_id_list_get": {
+        "method": "GET",
+        "path": "/policies/by-id/"
+    },
+    "nadeoservices_policy_list_by_name_list_get": {
+        "method": "GET",
+        "path": "/policies/by-name/"
+    },
+    "nadeoservices_policy_list_by_paging_get": {
+        "method": "GET",
+        "path": "/policies/by-paging/"
     },
     "nadeoservices_account_subscription_add": {
         "method": "PUT",
@@ -447,6 +471,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/prestiges/"
     },
+    "nadeoservices_account_prestige_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/accounts/{accountId}/prestiges/"
+    },
     "nadeoservices_account_prestige_current_delete": {
         "method": "DELETE",
         "path": "/accounts/{accountId}/currentPrestige"
@@ -459,13 +487,17 @@
         "method": "PUT",
         "path": "/accounts/{accountId}/currentPrestige"
     },
+    "nadeoservices_all_prestige_list_get": {
+        "method": "GET",
+        "path": "/prestiges/all/"
+    },
     "nadeoservices_prestige_list_get": {
         "method": "GET",
         "path": "/prestiges/"
     },
     "nadeoservices_prestige_list_by_id_list_get": {
         "method": "GET",
-        "path": "/prestiges/by_id/"
+        "path": "/prestiges/by-id/"
     },
     "nadeoservices_prestige_list_by_criteria_list_get": {
         "method": "GET",
@@ -582,6 +614,14 @@
     "nadeoservices_telemetry_map_session_add": {
         "method": "POST",
         "path": "/telemetry/map-session"
+    },
+    "nadeoservices_club_get": {
+        "method": "GET",
+        "path": "/clubs/{clubId}"
+    },
+    "nadeoservices_club_list_get": {
+        "method": "GET",
+        "path": "/clubs/"
     },
     "nadeoservices_trophy_settings_get": {
         "method": "GET",
