@@ -319,11 +319,11 @@
         "method": "DELETE",
         "path": "/maps/favorites"
     },
-    "nadeoservices_map_favorite_get": {
+    "nadeoservices_map_favorite_list_get": {
         "method": "GET",
         "path": "/maps/favorites"
     },
-    "nadeoservices_map_favorite_get_by_map_uids": {
+    "nadeoservices_map_favorite_list_by_uid_list_get": {
         "method": "GET",
         "path": "/maps/favorites/by-map-uids"
     },
