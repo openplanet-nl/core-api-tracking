@@ -235,6 +235,10 @@
         "method": "PUT",
         "path": "/itemCollections/{itemCollectionId}"
     },
+    "nadeoservices_item_collection_activity_set": {
+        "method": "PUT",
+        "path": "/itemCollections/{itemCollectionId}/activity"
+    },
     "nadeoservices_item_collection_version_create": {
         "method": "POST",
         "path": "/itemCollections/{itemCollectionId}/versions/"
