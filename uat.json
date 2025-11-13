@@ -311,6 +311,14 @@
         "method": "GET",
         "path": "/maps/{mapUid}/votes"
     },
+    "nadeoservices_map_zen_account_get": {
+        "method": "GET",
+        "path": "/maps/{mapUid}/zen/account"
+    },
+    "nadeoservices_map_zen_account_increment": {
+        "method": "POST",
+        "path": "/maps/{mapUid}/zen/account"
+    },
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
