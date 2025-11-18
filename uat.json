@@ -263,6 +263,10 @@
         "method": "GET",
         "path": "/maps/{mapId}/thumbnail"
     },
+    "nadeoservices_map_list_get": {
+        "method": "GET",
+        "path": "/maps/"
+    },
     "nadeoservices_map_list_by_id_list_get": {
         "method": "GET",
         "path": "/maps/by-id/"
@@ -313,11 +317,11 @@
     },
     "nadeoservices_map_zen_account_get": {
         "method": "GET",
-        "path": "/maps/{mapUid}/zen/account"
+        "path": "/maps/{mapId}/zen/account"
     },
     "nadeoservices_map_zen_account_increment": {
         "method": "POST",
-        "path": "/maps/{mapUid}/zen/account"
+        "path": "/maps/{mapId}/zen/account"
     },
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
@@ -330,6 +334,14 @@
     "nadeoservices_maprecord_get": {
         "method": "GET",
         "path": "/mapRecords/{mapRecordId}"
+    },
+    "nadeoservices_maprecord_list_get": {
+        "method": "GET",
+        "path": "/mapRecords/"
+    },
+    "nadeoservices_maprecord_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/"
     },
     "nadeoservices_maprecord_list_by_id_list_get_v2": {
         "method": "GET",
