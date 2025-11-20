@@ -23,6 +23,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/client/signature"
     },
+    "nadeoservices_account_client_additional_file_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/client/additionalFiles"
+    },
     "nadeoservices_client_config_get": {
         "method": "GET",
         "path": "/client/config"
@@ -121,11 +125,11 @@
     },
     "nadeoservices_user_account_patch": {
         "method": "PATCH",
-        "path": "/accounts/{accountId}"
+        "path": "/accounts/{accountId}/info"
     },
     "nadeoservices_user_account_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}"
+        "path": "/accounts/{accountId}/info"
     },
     "nadeoservices_account_password_set": {
         "method": "PUT",
