@@ -23,6 +23,10 @@
         "method": "GET",
         "path": "/accounts/{accountId}/client/signature"
     },
+    "nadeoservices_account_client_additional_file_list_get": {
+        "method": "GET",
+        "path": "/accounts/{accountId}/client/additionalFiles"
+    },
     "nadeoservices_client_config_get": {
         "method": "GET",
         "path": "/client/config"
@@ -121,11 +125,11 @@
     },
     "nadeoservices_user_account_patch": {
         "method": "PATCH",
-        "path": "/accounts/{accountId}"
+        "path": "/accounts/{accountId}/info"
     },
     "nadeoservices_user_account_get": {
         "method": "GET",
-        "path": "/accounts/{accountId}"
+        "path": "/accounts/{accountId}/info"
     },
     "nadeoservices_account_password_set": {
         "method": "PUT",
@@ -263,6 +267,10 @@
         "method": "GET",
         "path": "/maps/{mapId}/thumbnail"
     },
+    "nadeoservices_map_list_get": {
+        "method": "GET",
+        "path": "/maps/"
+    },
     "nadeoservices_map_list_by_id_list_get": {
         "method": "GET",
         "path": "/maps/by-id/"
@@ -311,6 +319,14 @@
         "method": "GET",
         "path": "/maps/{mapUid}/votes"
     },
+    "nadeoservices_map_zen_account_get": {
+        "method": "GET",
+        "path": "/maps/{mapId}/zen/account"
+    },
+    "nadeoservices_map_zen_account_increment": {
+        "method": "POST",
+        "path": "/maps/{mapId}/zen/account"
+    },
     "nadeoservices_maprecordsecureattempt_create": {
         "method": "POST",
         "path": "/accounts/{accountId}/mapRecordSecureAttempts/"
@@ -322,6 +338,14 @@
     "nadeoservices_maprecord_get": {
         "method": "GET",
         "path": "/mapRecords/{mapRecordId}"
+    },
+    "nadeoservices_maprecord_list_get": {
+        "method": "GET",
+        "path": "/mapRecords/"
+    },
+    "nadeoservices_maprecord_list_get_v2": {
+        "method": "GET",
+        "path": "/v2/mapRecords/"
     },
     "nadeoservices_maprecord_list_by_id_list_get_v2": {
         "method": "GET",
