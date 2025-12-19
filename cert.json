@@ -51,6 +51,10 @@
         "method": "GET",
         "path": "/client/files/{clientFileId}"
     },
+    "nadeoservices_client_file_list_get": {
+        "method": "GET",
+        "path": "/client/files/"
+    },
     "nadeoservices_client_file_list_by_id_list_get": {
         "method": "GET",
         "path": "/client/files/by-id/"
@@ -478,10 +482,6 @@
     "nadeoservices_prestige_list_by_criteria_list_get": {
         "method": "GET",
         "path": "/prestiges/by_criteria/"
-    },
-    "nadeoservices_prestige_settings_get": {
-        "method": "GET",
-        "path": "/prestiges/settings"
     },
     "nadeoservices_account_profile_chunk_create": {
         "method": "POST",
