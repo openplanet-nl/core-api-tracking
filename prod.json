@@ -127,18 +127,6 @@
         "method": "GET",
         "path": "/accounts/{accountId}/servers"
     },
-    "nadeoservices_user_account_patch": {
-        "method": "PATCH",
-        "path": "/accounts/{accountId}/info"
-    },
-    "nadeoservices_user_account_get": {
-        "method": "GET",
-        "path": "/accounts/{accountId}/info"
-    },
-    "nadeoservices_account_password_set": {
-        "method": "PUT",
-        "path": "/accounts/{accountId}/password"
-    },
     "nadeoservices_token_create_from_basic_v2": {
         "method": "POST",
         "path": "/v2/authentication/token/basic"
