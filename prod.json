@@ -327,6 +327,10 @@
         "method": "GET",
         "path": "/v2/accounts/{accountId}/mapRecords/"
     },
+    "nadeoservices_trophy_config_get": {
+        "method": "GET",
+        "path": "/trophies/config"
+    },
     "nadeoservices_maprecord_get": {
         "method": "GET",
         "path": "/mapRecords/{mapRecordId}"
